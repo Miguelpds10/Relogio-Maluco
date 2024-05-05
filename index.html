@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <title>Relógio</title>
+</head>
+<body>
+    <h1 class="título">Relógio com JavaScript</h1>
+    <form class="Formulário">
+    <label>Data Atual</label>
+    <input type="text" id="txtdia"> /  <input type="text" id="txtmes"> / <input type="text" id="txtano">
+    <br><br>
+    <label>Nome do mês</label>
+    <input type="text" id="mes">
+    <br> <br>
+    <label>Hora Atual</label>
+    <input type="text" id="txthora"> : <input type="text" id="txtmin"> : <input type="text" id="txtseg">
+    <br> <br>
+    <label>Dia da Semana</label>
+    <input type="text" id="txtsemana">
+    
+    <br><br>
+    <input type="button" value="Exibir" onclick="Exibir()"/>
+    <input type="button" value="Parar Relógio" onclick = "Parar()"/>
+    <input type="reset" value="Limpar Relógio" onclick = "Limpar()">
+    </form>
+    
+</body>
+</html>
